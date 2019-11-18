@@ -1,0 +1,18 @@
+<joblist>
+  <job>
+    <defaultTab>summary</defaultTab>
+    <description>A simple hello world job.</description>
+    <executionEnabled>true</executionEnabled>
+    <id>3398f5a9-f541-462b-aaea-2e0bae4b1867</id>
+    <loglevel>INFO</loglevel>
+    <name>HelloWorld</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "Hello World!"</exec>
+      </command>
+    </sequence>
+    <uuid>3398f5a9-f541-462b-aaea-2e0bae4b1867</uuid>
+  </job>
+</joblist>
