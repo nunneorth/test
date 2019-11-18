@@ -1,0 +1,24 @@
+<joblist>
+  <job>
+    <defaultTab>summary</defaultTab>
+    <description>An e-mail test job.</description>
+    <executionEnabled>true</executionEnabled>
+    <id>585e944b-9ac1-4b53-a437-2a6afd09af97</id>
+    <loglevel>INFO</loglevel>
+    <name>JobEMAIL</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <notification>
+      <onsuccess>
+        <email recipients='info@variacode.com' subject='Test e-mail job succeed' />
+      </onsuccess>
+    </notification>
+    <notifyAvgDurationThreshold />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "email testing done!"</exec>
+      </command>
+    </sequence>
+    <uuid>585e944b-9ac1-4b53-a437-2a6afd09af97</uuid>
+  </job>
+</joblist>
