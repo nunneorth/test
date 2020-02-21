@@ -1,0 +1,25 @@
+<joblist>
+  <job>
+    <defaultTab>output</defaultTab>
+    <description>Just a test job for SCM import</description>
+    <executionEnabled>true</executionEnabled>
+    <id>012a23e5-4db4-4a1d-9ee2-124671c1ab6c</id>
+    <loglevel>INFO</loglevel>
+    <name>Test job</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <schedule>
+      <month month='*' />
+      <time hour='*' minute='0/1' seconds='0' />
+      <weekday day='*' />
+      <year year='*' />
+    </schedule>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <script><![CDATA[echo 'Hello World!']]></script>
+        <scriptargs />
+      </command>
+    </sequence>
+    <uuid>012a23e5-4db4-4a1d-9ee2-124671c1ab6c</uuid>
+  </job>
+</joblist>
