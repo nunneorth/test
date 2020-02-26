@@ -1,0 +1,23 @@
+- defaultTab: output
+  description: Just a test job for SCM import
+  executionEnabled: true
+  id: 012a23e5-4db4-4a1d-9ee2-124671c1ab6c
+  loglevel: INFO
+  name: Test job
+  nodeFilterEditable: false
+  schedule:
+    month: '*'
+    time:
+      hour: '*'
+      minute: 0/1
+      seconds: '0'
+    weekday:
+      day: '*'
+    year: '*'
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - script: echo 'Hello World!'
+    keepgoing: false
+    strategy: node-first
+  uuid: 012a23e5-4db4-4a1d-9ee2-124671c1ab6c
