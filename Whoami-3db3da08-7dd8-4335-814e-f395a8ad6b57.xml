@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description>Simple whoami command.</description>
+    <executionEnabled>true</executionEnabled>
+    <id>3db3da08-7dd8-4335-814e-f395a8ad6b57</id>
+    <loglevel>INFO</loglevel>
+    <name>Whoami</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>whoami</exec>
+      </command>
+    </sequence>
+    <uuid>3db3da08-7dd8-4335-814e-f395a8ad6b57</uuid>
+  </job>
+</joblist>
