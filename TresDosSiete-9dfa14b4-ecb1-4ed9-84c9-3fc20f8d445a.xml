@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>9dfa14b4-ecb1-4ed9-84c9-3fc20f8d445a</id>
+    <loglevel>INFO</loglevel>
+    <name>TresDosSiete</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "tres dos siete"</exec>
+      </command>
+    </sequence>
+    <uuid>9dfa14b4-ecb1-4ed9-84c9-3fc20f8d445a</uuid>
+  </job>
+</joblist>
