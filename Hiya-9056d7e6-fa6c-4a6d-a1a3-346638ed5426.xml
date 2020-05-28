@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>9056d7e6-fa6c-4a6d-a1a3-346638ed5426</id>
+    <loglevel>INFO</loglevel>
+    <name>Hiya</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "hi"</exec>
+      </command>
+    </sequence>
+    <uuid>9056d7e6-fa6c-4a6d-a1a3-346638ed5426</uuid>
+  </job>
+</joblist>

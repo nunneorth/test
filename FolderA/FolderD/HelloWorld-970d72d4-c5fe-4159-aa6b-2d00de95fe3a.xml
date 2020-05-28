@@ -1,0 +1,21 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <group>FolderA/FolderD</group>
+    <id>970d72d4-c5fe-4159-aa6b-2d00de95fe3a</id>
+    <loglevel>INFO</loglevel>
+    <name>HelloWorld</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <script><![CDATA[echo "hi"]]></script>
+        <scriptargs />
+      </command>
+    </sequence>
+    <uuid>970d72d4-c5fe-4159-aa6b-2d00de95fe3a</uuid>
+  </job>
+</joblist>
