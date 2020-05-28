@@ -11,7 +11,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>echo "hi"</exec>
+        <exec>echo "hi"; sleep 1</exec>
       </command>
     </sequence>
     <uuid>9056d7e6-fa6c-4a6d-a1a3-346638ed5426</uuid>
