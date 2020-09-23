@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>28ad8fb6-3f8f-460c-b57d-889c98b5442c</id>
+    <loglevel>INFO</loglevel>
+    <name>KrakkenTheKrakker</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "hi"</exec>
+      </command>
+    </sequence>
+    <uuid>28ad8fb6-3f8f-460c-b57d-889c98b5442c</uuid>
+  </job>
+</joblist>
