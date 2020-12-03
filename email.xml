@@ -9,7 +9,7 @@
     <nodeFilterEditable>false</nodeFilterEditable>
     <notification>
       <onsuccess>
-        <email recipients='info@variacode.com' subject='Test e-mail job succeed' />
+        <email recipients='info@variacode.net' subject='Test e-mail job succeed' />
       </onsuccess>
     </notification>
     <notifyAvgDurationThreshold />
