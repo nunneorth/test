@@ -5,7 +5,7 @@
     <executionEnabled>true</executionEnabled>
     <id>585e944b-9ac1-4b53-a437-2a6afd09af97</id>
     <loglevel>INFO</loglevel>
-    <name>JobEMAIL</name>
+    <name>JobEMAILUPDATED</name>
     <nodeFilterEditable>false</nodeFilterEditable>
     <notification>
       <onsuccess>
