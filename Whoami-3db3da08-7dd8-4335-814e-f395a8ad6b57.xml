@@ -11,7 +11,7 @@
     <scheduleEnabled>true</scheduleEnabled>
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>whoami</exec>
+        <exec>ls -a</exec>
       </command>
     </sequence>
     <uuid>3db3da08-7dd8-4335-814e-f395a8ad6b57</uuid>
