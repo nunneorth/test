@@ -1,0 +1,27 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>ab330bb2-99dc-4aec-a4fc-bfc88315921e</id>
+    <loglevel>INFO</loglevel>
+    <name>ByeWorld</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <schedule>
+      <month month='*' />
+      <time hour='*' minute='*' seconds='0/7' />
+      <weekday day='*' />
+      <year year='*' />
+    </schedule>
+    <scheduleEnabled>false</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>whoami</exec>
+      </command>
+    </sequence>
+    <tags>bye,devops,windows</tags>
+    <uuid>ab330bb2-99dc-4aec-a4fc-bfc88315921e</uuid>
+  </job>
+</joblist>
