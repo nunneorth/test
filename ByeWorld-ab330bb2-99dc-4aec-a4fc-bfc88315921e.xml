@@ -18,7 +18,7 @@
     <schedules />
     <sequence keepgoing='false' strategy='node-first'>
       <command>
-        <exec>whoami</exec>
+        <exec>ls -a</exec>
       </command>
     </sequence>
     <tags>bye,devops,windows</tags>
