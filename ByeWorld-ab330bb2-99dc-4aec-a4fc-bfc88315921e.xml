@@ -15,13 +15,11 @@
       <year year='*' />
     </schedule>
     <scheduleEnabled>false</scheduleEnabled>
-    <schedules />
     <sequence keepgoing='false' strategy='node-first'>
       <command>
         <exec>ls -a</exec>
       </command>
     </sequence>
-    <tags>bye,devops,windows</tags>
     <uuid>ab330bb2-99dc-4aec-a4fc-bfc88315921e</uuid>
   </job>
 </joblist>
