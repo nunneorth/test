@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description>hello</description>
+    <executionEnabled>true</executionEnabled>
+    <id>477f8875-f9c3-455a-a150-617c428caab8</id>
+    <loglevel>INFO</loglevel>
+    <name>QuickTest</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>whoami</exec>
+      </command>
+    </sequence>
+    <uuid>477f8875-f9c3-455a-a150-617c428caab8</uuid>
+  </job>
+</joblist>
